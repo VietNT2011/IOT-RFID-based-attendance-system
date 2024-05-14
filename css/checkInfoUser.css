@@ -1,0 +1,257 @@
+body{
+   
+        background: linear-gradient(to right, #23555c, #21a0ab);
+      }
+
+.wrapInput{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.wrapBtnLog{
+    display: flex;
+    justify-content: center;
+}
+
+.infoUser .Input{
+    border: none;
+    border-radius: 10px;
+    background-color: #e2e6ee;
+    padding: 10px 10px;
+   
+}
+
+.infoUser{
+    padding: 20px 0 20px 0;
+}
+
+.infoUser .Input input{
+    border: none;
+    background-color: transparent;
+}
+
+.cardInfo{
+    width: 300px;
+    /* height: 500px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px 10px;
+}
+
+.wrapInput span{
+    display: block;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700 !important;
+   
+}
+
+a.btn.showInfo{
+    background-color: #3BB77E;
+}
+
+a.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 700;
+    background-color: #FF0000;
+    cursor: pointer;
+    color: #fff;
+    transition: all linear 0.2s;
+    border:none;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.wrapInput .inputId{
+    margin: 0 40px;
+    
+}
+
+.wrapInput .inputId{
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    color: #253D4E;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 14px;
+}
+
+.wrapInput .submitId{
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 700;
+    background-color:rgb(3, 169, 244);;
+    cursor: pointer;
+    color: #fff;
+    transition: all linear 0.2s;
+    border:none;
+}
+
+.wrapInput .submitId:hover, a.btn:hover{
+    transform: translateY(-4px);
+    border:none;
+    filter: brightness(0.9);
+}
+
+table{
+    margin: 50px auto;
+}
+
+
+  .blue { color: #185875; }
+  .yellow { color: #FFF842; }
+  
+  .container td {
+    font-weight: normal;
+    font-size: 1.1em;
+    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+    -moz-box-shadow: 0 2px 2px -2px #0E1119;
+    box-shadow: 0 2px 2px -2px #0E1119;
+    color:#A7A1AE;
+  }
+  
+  .container {
+    text-align: left;
+    overflow: hidden;
+    width: 90%;
+  }
+
+  .container.notes{
+    background: transparent;
+    margin: 30px 140px;
+  }
+
+  table.container.notes tr {
+    background-color: transparent;
+  }
+
+  .container.notes th {
+    background-color: transparent;
+  }
+
+  .container.notes tr:hover{
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  .container td, .container th {
+   padding: 10px 0;
+    padding-left:2%;  
+    cursor: default;
+  }
+  
+  /* Background-color of the odd rows */
+  .container tr:nth-child(odd) {
+      background-color: #323C50;
+  }
+  
+  /* Background-color of the even rows */
+  .container tr:nth-child(even) {
+      background-color: #2C3446;
+  }
+  
+  .container th {
+      background-color: #1F2739;
+      color: #fff;
+      font-size: 1.2em;
+  }
+  
+  .container td:first-child { color: #FB667A; }
+  
+  .container tr:hover {
+     background-color: #464A52;
+  -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+       -moz-box-shadow: 0 6px 6px -6px #0E1119;
+            box-shadow: 0 6px 6px -6px #0E1119;
+  }
+  
+  .container td:hover {
+    background-color: #FFF842;
+    color: #403E10;
+    font-weight: bold;
+    
+    box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+    transform: translate3d(6px, -6px, 0);
+    
+    transition-delay: 0s;
+      transition-duration: 0.4s;
+      transition-property: all;
+    transition-timing-function: line;
+  }
+
+  .notes{  
+    text-align: center;
+    animation: showInfo linear 0.3s;
+} 
+
+.notes5{
+    display: block;
+    width: 70%;
+    border-radius:6px;
+    font-size:18px;
+    padding: 15px;
+    background:#fb818f;
+    color:#fff;
+    font-weight: 500;
+} 
+
+.fa-circle-exclamation{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+@keyframes showInfo{
+    from{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex .Input input{
+    width: 110px;
+    border: none;
+}
+
+input{
+    outline: none;
+    border: none;
+    color: #9ea8bd;
+    font-size: 15px;
+}
+
+.d-inline h3{
+    display: inline-block;
+}
+
+h3{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+h1{
+    color: #fff;
+}
+
